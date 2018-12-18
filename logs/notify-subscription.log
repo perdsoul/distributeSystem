@@ -1,0 +1,126 @@
+2018-12-18 19:45:25,618 - local IP : 192.168.1.110
+2018-12-18 19:45:26,320 - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x0e635e19]'
+2018-12-18 19:45:26,327 - server started @ 192.168.1.110:45455
+
+2018-12-18 19:46:04,377 - local IP : 192.168.1.110
+2018-12-18 19:46:04,830 - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x48c1602a]'
+2018-12-18 19:46:04,838 - server started @ 192.168.1.110:45455
+
+2018-12-18 19:47:55,753 - local IP : 192.168.1.110
+2018-12-18 19:47:56,322 - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x4fe380ab]'
+2018-12-18 19:47:56,330 - server started @ 192.168.1.110:45455
+
+2018-12-18 19:48:08,325 - connection comes : 192.168.1.108
+2018-12-18 19:48:08,366 - build connect to 192.168.1.108
+2018-12-18 19:48:08,511 - start search node
+2018-12-18 19:48:08,511 - search node complete
+2018-12-18 19:52:33,372 - connection error
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:656)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:591)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:508)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:470)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:909)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2018-12-18 19:54:11,647 - local IP : 192.168.1.110
+2018-12-18 19:54:12,180 - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x4c77836e]'
+2018-12-18 19:54:12,189 - server started @ 192.168.1.110:45455
+
+2018-12-18 19:54:18,361 - connection comes : 192.168.1.108
+2018-12-18 19:54:18,367 - build connect to 192.168.1.108
+2018-12-18 19:54:18,483 - start search node
+2018-12-18 19:54:18,484 - search node complete
+2018-12-18 19:54:50,359 - connection error
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:656)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:591)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:508)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:470)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:909)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2018-12-18 19:54:57,926 - local IP : 192.168.1.110
+2018-12-18 19:54:58,500 - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x8be925e2]'
+2018-12-18 19:54:58,510 - server started @ 192.168.1.110:45455
+
+2018-12-18 19:55:02,706 - connection comes : 192.168.1.108
+2018-12-18 19:55:02,712 - build connect to 192.168.1.108
+2018-12-18 19:55:02,907 - start search node
+2018-12-18 19:55:02,908 - search node complete
+2018-12-18 19:59:27,287 - connection error
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:656)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:591)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:508)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:470)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:909)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2018-12-18 19:59:31,671 - connection comes : 192.168.1.108
+2018-12-18 19:59:31,672 - build connect to 192.168.1.108
+2018-12-18 19:59:31,747 - start search node
+2018-12-18 19:59:31,747 - search node complete
+2018-12-18 19:59:39,610 - local IP : 192.168.1.110
+2018-12-18 19:59:40,573 - Unknown channel option 'TCP_NODELAY' for channel '[id: 0xc8602ca5]'
+2018-12-18 19:59:40,583 - server started @ 192.168.1.110:45455
+
+2018-12-18 19:59:45,257 - connection comes : 192.168.1.108
+2018-12-18 19:59:45,263 - build connect to 192.168.1.108
+2018-12-18 20:00:12,714 - connection error
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:656)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:591)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:508)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:470)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:909)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2018-12-18 20:00:22,606 - local IP : 192.168.1.110
+2018-12-18 20:00:23,542 - Unknown channel option 'TCP_NODELAY' for channel '[id: 0x47d7aa18]'
+2018-12-18 20:00:23,552 - server started @ 192.168.1.110:45455
+
+2018-12-18 20:00:30,353 - connection comes : 192.168.1.108
+2018-12-18 20:00:30,360 - build connect to 192.168.1.108
+2018-12-18 20:00:30,547 - start search node
+2018-12-18 20:00:30,547 - search node complete
